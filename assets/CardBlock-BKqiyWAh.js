@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as r,o as s,r as c}from"./index-XwKLMxXK.js";const t={},a={class:"bg-base-200 p-4 xl:p-6"};function n(e,_){return s(),r("div",a,[c(e.$slots,"default")])}const f=o(t,[["render",n]]);export{f as C};
