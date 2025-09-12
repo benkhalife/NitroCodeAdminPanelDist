@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Check if a directory or file exists, if so, serve it directly
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+
+  # If the request is for an existing file, directory, or symbolic link, do not rewrite
+  RewriteRule ^.*$ /index.html [L]
+</IfModule>
